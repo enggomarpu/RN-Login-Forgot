@@ -19,7 +19,7 @@ const RoundButton = ({
 }
 const styles = StyleSheet.create({
   button: {
-    marginTop: 40,
+    marginVertical: 20,
     backgroundColor: '#512DA8',
     height: 48,
     alignItems: 'center',
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   text: {
     color: "#fff",
     fontSize: 16,
-    textTransform: 'capitalize'
+    //textTransform: 'capitalize'
   }
 });
 export default RoundButton
